@@ -32,6 +32,11 @@ body {
     justify-content: space-between;
 }
 
+.logos {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     height: 2.6rem;
     width: auto;
@@ -107,7 +112,7 @@ body {
     margin-top: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .container {
         padding: 4rem 2rem;
         border-left: 1.5rem solid #00AEFF;
@@ -147,7 +152,7 @@ body {
     
     .details {
         font-size: 1rem;
-        max-width: 750px;
+        max-width: 500px;
     }
     
     .status {
